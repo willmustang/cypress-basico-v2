@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "cypress": "^9.5.1"
+  },
+  "dependencies": {
+    "curso-cypress-v2": "file:"
   }
 }
