@@ -1,8 +1,9 @@
 {
-    "viewportWidth": 1280,
-    "viewportHeight": 720,
-    "video": true,
-    "screenshotsFolder": "cypress/screenshots",
-    "videosFolder": "cypress/videos",
-    "integrationFolder": "cypress/integration"
-  }
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "video": true,
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "integrationFolder": "cypress/integration",
+  "supportFile": "cypress/support/integration.js"
+}
