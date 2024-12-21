@@ -10,3 +10,9 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+
+      -  name: Run Cypress tests
+         run: npx cypress run --spec "cypress/e2e/CAC-TAT.cy.js"
+
+      -  name: Run Cypress tests
+         run: npx cypress run --spec "cypress/e2e/privacy.cy.js"   
