@@ -1,5 +1,5 @@
 {
-    "baseUrl": "./src/index.html",
+    "baseUrl": "http://TatieWill:49350",
     "viewportWidth": 1280,
     "viewportHeight": 720,
     "video": true,
