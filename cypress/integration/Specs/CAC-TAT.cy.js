@@ -29,8 +29,15 @@ describe('Central de Atendimento ao Cliente TAT', function () {
 
         cy.tick(THREE_SECONDS_IN_MS)
 
+<<<<<<< HEAD
         cy.get('.success').should('not.be.visible')
     })
+=======
+  it('Envia formulário com sucesso usando comando customizado', function(){
+      cy.fillMandatoryFields///AndSubmit()
+      cy.get('.success').should('be.visible')
+  })
+>>>>>>> 47baac1a5baec9eef08f0e81ce996a7d0fa06784
 
     it('exibe mensagem de erro ao submeter o formulário com um email com formatação inválida', function () {
         cy.clock()
